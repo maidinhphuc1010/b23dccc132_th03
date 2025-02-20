@@ -61,22 +61,11 @@ const GuessNumberGame: React.FC = () => {
           Hãy thử thách bản thân bằng cách đoán số mà hệ thống đã chọn. Bạn có 10 lượt để đoán đúng số từ 1 đến 100.
         </Text> <br />
         <Text className="text-gray-300 block mb-4 text-2xl">
-          Trò chơi này sẽ giúp bạn rèn luyện khả năng phán đoán và sự kiên nhẫn. Hãy thử sức ngay bây giờ! Bạn sẽ có cơ hội kiểm tra khả năng dự đoán của mình và xem liệu bạn có thể đoán đúng số mà hệ thống đã chọn trong vòng 10 lượt hay không. Hãy nhớ rằng mỗi lần đoán sai, bạn sẽ nhận được gợi ý để giúp bạn tiến gần hơn đến con số chính xác. Chúc bạn có những giây phút thư giãn và thú vị với trò chơi này!
-        </Text> <br />
-        <Text className="text-gray-300 block mb-4 text-2xl">
-          <b>Luật chơi:</b> <br />
-          - Hệ thống sẽ sinh ra một số ngẫu nhiên trong khoảng từ 1 đến 100. <br />
-          - Người chơi sẽ nhập các dự đoán của mình và hệ thống sẽ phản hồi xem dự đoán đó cao hơn, thấp hơn, hay đúng số. <br />
-          - Người chơi có 10 lượt dự đoán mỗi lượt chơi. <br />
-          - Sau mỗi lần đoán, hệ thống sẽ thông báo: <br />
-          &nbsp;&nbsp;+ “Bạn đoán quá thấp!” nếu số dự đoán nhỏ hơn số ngẫu nhiên. <br />
-          &nbsp;&nbsp;+ “Bạn đoán quá cao!” nếu số dự đoán lớn hơn số ngẫu nhiên. <br />
-          &nbsp;&nbsp;+ “Chúc mừng! Bạn đã đoán đúng!” nếu người chơi đoán đúng. <br />
-          - Nếu người chơi không đoán đúng trong 10 lần, hệ thống sẽ thông báo “Bạn đã hết lượt! Số đúng là [số ngẫu nhiên].”
-        </Text> <br />
-        <Text className="text-gray-300 block mb-4 text-2xl bold" >
           Nhấn nút "Play" để bắt đầu trò chơi. Chúc bạn may mắn!
         </Text> <br />
+        <Text className="text-gray-300 block mb-4 text-2xl">
+          Trò chơi này sẽ giúp bạn rèn luyện khả năng phán đoán và sự kiên nhẫn. Hãy thử sức ngay bây giờ! Bạn sẽ có cơ hội kiểm tra khả năng dự đoán của mình và xem liệu bạn có thể đoán đúng số mà hệ thống đã chọn trong vòng 10 lượt hay không. Hãy nhớ rằng mỗi lần đoán sai, bạn sẽ nhận được gợi ý để giúp bạn tiến gần hơn đến con số chính xác. Chúc bạn có những giây phút thư giãn và thú vị với trò chơi này!
+        </Text>
       </div> <br />
       <Button type="primary" onClick={showModal} className="bg-blue-500 hover:bg-blue-700 border-none text-3xl px-6 py-3">
         Play 🎮

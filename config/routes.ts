@@ -43,9 +43,12 @@
 		icon: 'ExclamationCircleOutlined',
 	},
 
-
-
-
+	{
+		path: '/study-tracker',
+		name: 'Quản lý học tập',
+		component: './StudyTracker',
+		icon: 'BookOutlined',
+	},
 	
 
 	// DANH MUC HE THONG
