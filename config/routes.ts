@@ -37,19 +37,18 @@
 		icon: 'ArrowsAltOutlined',
 	},
 	{
-		path: '/guess-number-game',
-		name: 'GuessNumberGame',
-		component: './GuessNumberGame',
-		icon: 'ExclamationCircleOutlined',
+		path: '/managementtab-management',
+		name: 'ManagementTabs',
+		component: './NganHangCauHoi/ManagementTabs',
+		icon: 'AppstoreOutlined',
 	},
 
 	{
-		path: '/study-tracker',
-		name: 'Quản lý học tập',
-		component: './StudyTracker',
-		icon: 'BookOutlined',
+		path: '/game-oan-tu-ti',
+		name: 'Oản Tù Tì',
+		component: './GameOanTuTi',
+		icon: 'GamepadOutlined',
 	},
-	
 
 	// DANH MUC HE THONG
 	// {
