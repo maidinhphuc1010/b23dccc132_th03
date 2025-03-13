@@ -37,18 +37,37 @@
 		icon: 'ArrowsAltOutlined',
 	},
 	{
-		path: '/managementtab-management',
-		name: 'ManagementTabs',
-		component: './NganHangCauHoi/ManagementTabs',
-		icon: 'AppstoreOutlined',
+		path: '/employee-management',
+		name: 'Nhân Viên',
+		component: './Spa/Employee/Employee',
+		icon: 'TeamOutlined',
+	},
+	{
+		path: '/appointment-management',
+		name: 'Đặt Lịch ',
+		component: './Spa/Appointment/AppointmentsPage',
+		icon: 'TeamOutlined',
+	},
+	{
+		path: '/servicemanagement-management',
+		name: 'Dịch Vụ',
+		component: './Spa/Service/ServiceManagement',
+		icon: 'Schedule',
+	},
+	{
+		path: '/ratings-management',
+		name: 'Đánh Giá ',
+		component: './Spa/Ratings/RatingsPage',
+		icon: 'TeamOutlined',
+	},
+	{
+		path: '/statistics',
+		name: 'Thống Kê',
+		component: './Spa/Statistics/StatisticsPage',
+		icon: 'TeamOutlined',
 	},
 
-	{
-		path: '/game-oan-tu-ti',
-		name: 'Oản Tù Tì',
-		component: './GameOanTuTi',
-		icon: 'GamepadOutlined',
-	},
+
 
 	// DANH MUC HE THONG
 	// {
